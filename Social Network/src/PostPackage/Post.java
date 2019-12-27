@@ -1,3 +1,7 @@
+package PostPackage;
+
+import UserPackage.User;
+
 public class Post {
     private String content;
     private String id;

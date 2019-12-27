@@ -1,3 +1,7 @@
+package PostPackage;
+
+import UserPackage.User;
+
 public class SharedPost extends Post{
     private User sharer;
 

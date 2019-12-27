@@ -1,3 +1,5 @@
+package PostPackage.HashtagPackage;
+
 public class Hashtag {
     private String category;
 

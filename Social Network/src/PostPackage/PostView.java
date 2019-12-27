@@ -1,3 +1,5 @@
+package PostPackage;
+
 public class PostView {
     PostView(){
 

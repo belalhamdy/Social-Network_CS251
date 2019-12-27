@@ -1,3 +1,5 @@
+package UserPackage;
+
 public class UserView {
     UserView(String name) {
 

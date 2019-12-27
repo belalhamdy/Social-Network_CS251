@@ -1,3 +1,5 @@
+package UserPackage;
+
 public class IUser {
     private User user;
     private UserView userView;

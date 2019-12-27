@@ -1,3 +1,8 @@
+package CommentPackage;
+
+import PostPackage.Post;
+import UserPackage.User;
+
 public class Comment {
     private String id;
     private String content;

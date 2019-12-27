@@ -1,3 +1,8 @@
+package MessagePackage;
+
+import GroupPackage.Group;
+import UserPackage.User;
+
 public class IMessage {
     private Message message;
     private MessageView messageView;

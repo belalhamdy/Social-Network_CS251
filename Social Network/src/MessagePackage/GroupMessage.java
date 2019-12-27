@@ -1,3 +1,7 @@
+package MessagePackage;
+
+import GroupPackage.Group;
+
 public class GroupMessage extends Message {
     private Group group;
 

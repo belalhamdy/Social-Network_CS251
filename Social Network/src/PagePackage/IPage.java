@@ -1,3 +1,7 @@
+package PagePackage;
+
+import UserPackage.User;
+
 public class IPage {
     private Page page;
     private PageView pageView;

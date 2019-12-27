@@ -1,3 +1,5 @@
+package UserPackage;
+
 enum GType{Male, Female, Other}
 public class User {
     private String name;

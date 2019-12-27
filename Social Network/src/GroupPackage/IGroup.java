@@ -1,3 +1,8 @@
+package GroupPackage;
+
+import GroupPackage.Group;
+import UserPackage.User;
+
 public class IGroup {
     private Group group;
     private GroupView groupView;

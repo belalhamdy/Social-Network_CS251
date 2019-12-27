@@ -1,3 +1,5 @@
+package PagePackage;
+
 public class PageView {
     PageView() {
     }

@@ -1,4 +1,6 @@
-import javax.crypto.spec.PSource;
+package PostPackage;
+
+import UserPackage.User;
 
 public class IPost {
     private Post post;

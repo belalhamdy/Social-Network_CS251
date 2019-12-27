@@ -1,3 +1,5 @@
+package GroupPackage;
+
 public class GroupView {
     GroupView() {
     }

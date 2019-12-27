@@ -1,3 +1,7 @@
+package MessagePackage;
+
+import UserPackage.User;
+
 public class PersonalMessage extends Message {
     private User to;
 

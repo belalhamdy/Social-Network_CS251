@@ -1,3 +1,5 @@
+package MessagePackage;
+
 public class MessageView {
     MessageView(){
 

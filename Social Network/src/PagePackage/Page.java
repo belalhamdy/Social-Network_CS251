@@ -1,3 +1,5 @@
+package PagePackage;
+
 public class Page {
     private String name;
     private String id;

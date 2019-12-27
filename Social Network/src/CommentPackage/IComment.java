@@ -1,3 +1,8 @@
+package CommentPackage;
+
+import PostPackage.Post;
+import UserPackage.User;
+
 public class IComment {
     private Comment comment;
     private CommentView commentView;

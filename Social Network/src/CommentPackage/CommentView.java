@@ -1,3 +1,5 @@
+package CommentPackage;
+
 public class CommentView {
     CommentView(){
 

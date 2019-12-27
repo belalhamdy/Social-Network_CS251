@@ -1,3 +1,7 @@
+package MessagePackage;
+
+import UserPackage.User;
+
 public class Message {
     private String id;
     private User sender;
