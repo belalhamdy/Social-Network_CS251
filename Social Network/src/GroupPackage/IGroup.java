@@ -1,19 +1,19 @@
 package GroupPackage;
 
-import MessagePackage.IMessage;
-import PostPackage.Post;
-import UserPackage.User;
+import MessagePackage.IGroupMessage;
+import PostPackage.IPost;
+import UserPackage.IUser;
 
 import java.util.List;
 
 public interface IGroup {
-    void addAdmin(User user);
-    void removeAdmin(User user);
+    void addAdmin(IUser user);
+    void removeAdmin(IUser user);
 
-    void addPost(Post post);
+    void addPost(IPost post);
 
-    List<IMessage> getMessages();
-    void addMessage(IMessage msg);
+    List<IGroupMessage> getMessages();
+    void addMessage(IGroupMessage msg);
 
     void setName(String name);
 

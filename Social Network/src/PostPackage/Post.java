@@ -1,25 +1,25 @@
 package PostPackage;
 
-import GroupPackage.Group;
-import PagePackage.Page;
-import UserPackage.User;
+import GroupPackage.IGroup;
+import PagePackage.IPage;
+import UserPackage.IUser;
 
 public class Post implements IPost {
     private String content;
     private String id;
     private int nLikes;
     private int nShares;
-    private User Creator;
+    private IUser Creator;
     private String relation;
-    private Page page;
-    private Group group;
+    private IPage page;
+    private IGroup group;
 
 
-    public void like(User user) {
+    public void like(IUser user) {
 
     }
 
-    public Post share(User user) {
+    public Post share(IUser user) {
         return null;
     }
 
@@ -37,10 +37,10 @@ public class Post implements IPost {
         return content;
     }
 
-    public void setGroup(Group group) {
+    public void setGroup(IGroup group) {
         this.group = group;
     }
-    public Group getGroup() {
+    public IGroup getGroup() {
         return group;
     }
 
@@ -51,17 +51,17 @@ public class Post implements IPost {
         return nLikes;
     }
 
-    public void setCreator(User creator) {
+    public void setCreator(IUser creator) {
         Creator = creator;
     }
-    public User getCreator() {
+    public IUser getCreator() {
         return null;
     }
 
-    public void setPage(Page page) {
+    public void setPage(IPage page) {
         this.page = page;
     }
-    public Page getPage() {
+    public IPage getPage() {
         return page;
     }
 

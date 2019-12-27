@@ -1,6 +1,6 @@
 package UserPackage;
 
-import MessagePackage.PersonalMessage;
+import MessagePackage.IPersonalMessage;
 
 import java.util.List;
 
@@ -29,9 +29,9 @@ public interface IUser {
     void setPicture(String picture);
     String getPicture();
 
-    void addFriend(User other);
-    List<User> getFriends();
-    List<PersonalMessage> getMessages();
+    void addFriend(IUser other);
+    List<IUser> getFriends();
+    List<IPersonalMessage> getMessages();
 
-    void addMessage(PersonalMessage pm);
+    void addMessage(IPersonalMessage pm);
 }

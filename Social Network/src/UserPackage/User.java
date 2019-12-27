@@ -1,6 +1,6 @@
 package UserPackage;
 
-import MessagePackage.PersonalMessage;
+import MessagePackage.IPersonalMessage;
 
 import java.util.List;
 
@@ -61,18 +61,18 @@ public class User implements IUser {
         return picture;
     }
 
-    public void addFriend(User other) {
+    public void addFriend(IUser other) {
     }
 
-    public List<User> getFriends() {
+    public List<IUser> getFriends() {
         return null;
     }
 
-    public List<PersonalMessage> getMessages() {
+    public List<IPersonalMessage> getMessages() {
         return null;
     }
 
-    public void addMessage(PersonalMessage pm) {
+    public void addMessage(IPersonalMessage pm) {
     }
 
     public void setUsername(String userName) {

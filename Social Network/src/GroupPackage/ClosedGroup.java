@@ -2,7 +2,7 @@ package GroupPackage;
 
 import UserPackage.IUser;
 
-public class ClosedGroup extends Group {
+public class ClosedGroup extends Group implements IClosedGroup {
 
     public void approveMembership(IUser user) {
 

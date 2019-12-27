@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa15ce26-6e69-4bcd-bc69-05baa5d8ede9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PostPackage/HashtagPackage/IHashtag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GroupPackage/IClosedGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GroupPackage/IOpenGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MessagePackage/IGroupMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MessagePackage/IPersonalMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PostPackage/ISharedPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommentPackage/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommentPackage/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommentPackage/IComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommentPackage/IComment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GroupPackage/ClosedGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/ClosedGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GroupPackage/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/Group.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GroupPackage/IGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/IGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GroupPackage/OpenGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/OpenGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MessagePackage/GroupMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/GroupMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MessagePackage/IMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/IMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MessagePackage/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/Message.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MessagePackage/PersonalMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/PersonalMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PagePackage/IPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagePackage/IPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PagePackage/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagePackage/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostPackage/HashtagPackage/Hashtag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/HashtagPackage/Hashtag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PostPackage/IPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/IPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PostPackage/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/Post.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PostPackage/SharedPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/SharedPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserPackage/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/IUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserPackage/NormalUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserPackage/PremiumUser.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserPackage/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/User.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577448863647</updated>
-      <workItem from="1577478793693" duration="4560000" />
+      <workItem from="1577478793693" duration="5376000" />
     </task>
     <servers />
   </component>

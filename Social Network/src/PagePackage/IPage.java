@@ -1,10 +1,13 @@
 package PagePackage;
 
+import PostPackage.IPost;
 import UserPackage.IUser;
 
 public interface IPage {
 
     void like(IUser user);
+
+    void addPost(IPost post);
 
     int getnLikes();
     void setnLikes(int nlikes);

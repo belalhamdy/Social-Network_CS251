@@ -1,5 +1,6 @@
 package PagePackage;
 
+import PostPackage.IPost;
 import UserPackage.IUser;
 
 public class Page implements IPage {
@@ -51,6 +52,10 @@ public class Page implements IPage {
     }
 
     public void like(IUser user) {
+
+    }
+
+    public void addPost(IPost post) {
 
     }
 

@@ -1,14 +1,14 @@
 package MessagePackage;
 
-import GroupPackage.Group;
+import GroupPackage.IGroup;
 
-public class GroupMessage extends Message {
-    private Group group;
+public class GroupMessage extends Message implements IGroupMessage {
+    private IGroup group;
 
-    public void setGroup(Group group) {
+    public void setGroup(IGroup group) {
         this.group = group;
     }
-    public Group getGroup() {
+    public IGroup getGroup() {
         return group;
     }
 }

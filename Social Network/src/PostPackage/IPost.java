@@ -1,12 +1,12 @@
 package PostPackage;
 
-import GroupPackage.Group;
-import PagePackage.Page;
-import UserPackage.User;
+import GroupPackage.IGroup;
+import PagePackage.IPage;
+import UserPackage.IUser;
 
 public interface IPost {
-    void like(User user);
-    Post share(User user);
+    void like(IUser user);
+    Post share(IUser user);
 
     void setId(String id);
     String getId();
@@ -14,19 +14,19 @@ public interface IPost {
     void setContent(String content);
     String getContent();
 
-    void setGroup(Group group);
-    Group getGroup();
+    void setGroup(IGroup group);
+    IGroup getGroup();
 
     void setnLikes(int nLikes);
     int getnLikes();
 
-    void setCreator(User creator);
-    User getCreator();
+    void setCreator(IUser creator);
+    IUser getCreator();
 
     int getnShares();
 
-    void setPage(Page page);
-    Page getPage();
+    void setPage(IPage page);
+    IPage getPage();
 
     String getPostLocation();
 }

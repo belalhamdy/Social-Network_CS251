@@ -1,8 +1,8 @@
 package GroupPackage;
 
-import MessagePackage.IMessage;
-import PostPackage.Post;
-import UserPackage.User;
+import MessagePackage.IGroupMessage;
+import PostPackage.IPost;
+import UserPackage.IUser;
 
 import java.util.List;
 
@@ -11,21 +11,21 @@ public class Group implements IGroup{
     private String name;
     private String picture;
     private String type;
-    public void addAdmin(User user) {
+    public void addAdmin(IUser user) {
 
     }
-    public void removeAdmin(User user) {
+    public void removeAdmin(IUser user) {
+
+    }
+    public void addPost(IPost post) {
 
     }
 
-    public void addPost(Post post) {
-    }
-
-    public List<IMessage> getMessages() {
+    public List<IGroupMessage> getMessages() {
         return null;
     }
 
-    public void addMessage(IMessage msg) {
+    public void addMessage(IGroupMessage msg) {
 
     }
 
