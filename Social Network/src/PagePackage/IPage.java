@@ -1,71 +1,23 @@
 package PagePackage;
 
-import UserPackage.User;
+import UserPackage.IUser;
 
-public class IPage {
-    private Page page;
-    private PageView pageView;
+public interface IPage {
 
-    IPage() {
-    }
+    void like(IUser user);
 
-    public int LikesCount() {
-        return page.getnLikes();
-    }
+    int getnLikes();
+    void setnLikes(int nlikes);
 
-    public void Like(User user, Page page) {
+    void addAdmin(IUser user);
+    void removeAdmin(IUser user);
 
-    }
+    void setPicture(String picture);
+    String getPicture();
 
-    public void changePageName(String name) {
+    String getId();
+    void setId(String id);
 
-    }
-
-    public void changePagePicture(String picture) {
-
-    }
-
-    public void createPost() {
-    }
-
-    public void addAdmin(User user) {
-
-    }
-
-    public void removeAdmin(User user) {
-
-    }
-
-    public String getPicture() {
-        return page.getPicture();
-    }
-
-    public String getId() {
-        return page.getId();
-    }
-
-    public String getName() {
-        return page.getName();
-    }
-
-    public int getnLikes() {
-        return page.getnLikes();
-    }
-
-    public void setPicture(String picture) {
-        this.page.setPicture(picture);
-    }
-
-    public void setId(String id) {
-        this.page.setId(id);
-    }
-
-    public void setName(String name) {
-        this.page.setName(name);
-    }
-
-    public void setnLikes(int nLikes) {
-        this.page.setnLikes(nLikes);
-    }
-
+    String getName();
+    void setName(String name);
 }

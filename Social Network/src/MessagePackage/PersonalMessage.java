@@ -1,20 +1,14 @@
 package MessagePackage;
 
-import UserPackage.User;
+import UserPackage.IUser;
 
 public class PersonalMessage extends Message {
-    private User to;
+    private IUser to;
 
-    PersonalMessage(User sender, String content, User to) {
-        super(sender, content);
+    public void setTo(IUser to) {
         this.to = to;
     }
-
-    public void setTo(User to) {
-        this.to = to;
-    }
-
-    public User getTo() {
+    public IUser getTo() {
         return to;
     }
 }

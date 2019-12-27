@@ -1,42 +1,30 @@
 package MessagePackage;
 
-import UserPackage.User;
+import UserPackage.IUser;
 
-public class Message {
+public class Message implements IMessage {
     private String id;
-    private User sender;
+    private IUser sender;
     private String content;
-
-    Message(String content) {
-        this.content = content;
-    }
-
-    Message(User sender, String content) {
-        this.content = content;
-        this.sender = sender;
-    }
 
     public void setId(String id) {
         this.id = id;
+    }
+    public String getId() {
+        return id;
     }
 
     public void setContent(String content) {
         this.content = content;
     }
-
-    public void setSender(User sender) {
-        this.sender = sender;
-    }
-
-    public String getId() {
-        return id;
-    }
-
     public String getContent() {
         return content;
     }
 
-    public User getSender() {
+    public void setSender(IUser sender) {
+        this.sender = sender;
+    }
+    public IUser getSender() {
         return sender;
     }
 }

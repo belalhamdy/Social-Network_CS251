@@ -1,11 +1,7 @@
 package PostPackage.HashtagPackage;
 
-public class Hashtag {
+public class Hashtag implements IHashtag {
     private String category;
-
-    Hashtag(String category){
-        this.category = category;
-    }
 
     public void setCategory(String category) {
         this.category = category;

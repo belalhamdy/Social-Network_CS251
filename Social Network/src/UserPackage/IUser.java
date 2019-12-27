@@ -1,27 +1,37 @@
 package UserPackage;
 
-public class IUser {
-    private User user;
-    private UserView userView;
+import MessagePackage.PersonalMessage;
 
-    IUser() {
-    }
+import java.util.List;
 
-    public void ViewFriendList() {
-    }
+public interface IUser {
+    enum GenderType{Male, Female, Other}
+    enum UserType{NormalUser, PremiumUser}
 
-    public void viewMessages() {
-    }
+    void setId(String id);
+    String getId();
 
-    public void changeName(String name) {
+    void setUsername(String username);
+    String getUsername();
 
-    }
+    void setName(String name);
+    String getName();
 
-    public void changePicture(String picture) {
+    void setPassword(String pass);
+    boolean checkPassword(String pass);
 
-    }
+    void setEmail(String email);
+    String getEmail();
 
-    public void addFirend(User other) {
+    void setGender(GenderType gender);
+    GenderType getGender();
 
-    }
+    void setPicture(String picture);
+    String getPicture();
+
+    void addFriend(User other);
+    List<User> getFriends();
+    List<PersonalMessage> getMessages();
+
+    void addMessage(PersonalMessage pm);
 }

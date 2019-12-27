@@ -2,36 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa15ce26-6e69-4bcd-bc69-05baa5d8ede9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PostPackage/HashtagPackage/IHashtag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClosedGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/ClosedGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommentPackage/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CommentView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommentPackage/CommentView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GroupMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/GroupMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GroupView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/GroupView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hashtag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/HashtagPackage/Hashtag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HashtagView.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommentPackage/IComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/IGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/IMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagePackage/IPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/IPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/IUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MessageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/MessageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NormalUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/NormalUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OpenGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/OpenGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagePackage/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagePackage/PageView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PersonalMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/PersonalMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PostView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/PostView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PremiumUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/PremiumUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SharedPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/SharedPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommentPackage/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommentPackage/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommentPackage/IComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommentPackage/IComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GroupPackage/ClosedGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/ClosedGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GroupPackage/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GroupPackage/IGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/IGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GroupPackage/OpenGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GroupPackage/OpenGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessagePackage/GroupMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/GroupMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessagePackage/IMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/IMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessagePackage/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MessagePackage/PersonalMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MessagePackage/PersonalMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PagePackage/IPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagePackage/IPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PagePackage/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PagePackage/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PostPackage/HashtagPackage/Hashtag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/HashtagPackage/Hashtag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PostPackage/IPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/IPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PostPackage/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PostPackage/SharedPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PostPackage/SharedPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPackage/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/IUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPackage/NormalUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPackage/PremiumUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPackage/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/User.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +35,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -62,6 +55,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577454707105" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -86,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577448863647</updated>
-      <workItem from="1577478793693" duration="520000" />
+      <workItem from="1577478793693" duration="4560000" />
     </task>
     <servers />
   </component>

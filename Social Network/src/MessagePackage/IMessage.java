@@ -1,45 +1,15 @@
 package MessagePackage;
 
-import GroupPackage.Group;
-import UserPackage.User;
+import UserPackage.IUser;
 
-public class IMessage {
-    private Message message;
-    private MessageView messageView;
+public interface IMessage {
 
-    IMessage(){
+    void setId(String id);
+    String getId();
 
-    }
+    void setContent(String content);
+    String getContent();
 
-    public void sendMessage(User src, User des){
-
-    }
-
-    public void sendGroupMessage(User src, Group group){
-
-    }
-
-    public void setId(String id) {
-        this.message.setId(id);
-    }
-
-    public void setContent(String content) {
-        this.message.setContent(content);
-    }
-
-    public void setSender(User sender) {
-        this.message.setSender(sender);
-    }
-
-    public String getId() {
-        return this.message.getId();
-    }
-
-    public String getContent() {
-        return this.message.getContent();
-    }
-
-    public User getSender() {
-        return this.message.getSender();
-    }
+    void setSender(IUser sender);
+    IUser getSender();
 }

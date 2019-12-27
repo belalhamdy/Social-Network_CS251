@@ -1,9 +1,9 @@
 package GroupPackage;
 
-import GroupPackage.Group;
+import UserPackage.IUser;
 
 public class OpenGroup extends Group {
-    OpenGroup(String name, String picture, String type) {
-        super(name, picture, type);
+    public void addMember(IUser user){
+
     }
 }

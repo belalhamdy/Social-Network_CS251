@@ -1,49 +1,39 @@
 package CommentPackage;
 
-import PostPackage.Post;
-import UserPackage.User;
+import PostPackage.IPost;
+import UserPackage.IUser;
 
-public class Comment {
+public class Comment implements IComment {
     private String id;
     private String content;
-    private User writer;
-    private Post post;
+    private IUser writer;
+    private IPost post;
 
-    Comment(String content, User writer, Post post){
-        this.content = content;
-        this.post = post;
-        this.writer = writer;
+    public void setId(String id) {
+        this.id = id;
+    }
+    public String getId() {
+        return id;
     }
 
     public void setContent(String content) {
         this.content = content;
     }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public void setPost(Post post) {
-        this.post = post;
-    }
-
-    public void setWriter(User writer) {
-        this.writer = writer;
-    }
-
     public String getContent() {
         return content;
     }
 
-    public String getId() {
-        return id;
+    public void setPost(IPost post) {
+        this.post = post;
     }
-
-    public Post getPost() {
+    public IPost getPost() {
         return post;
     }
 
-    public User getWriter() {
+    public void setWriter(IUser writer) {
+        this.writer = writer;
+    }
+    public IUser getWriter() {
         return writer;
     }
 }

@@ -1,7 +1,14 @@
 package GroupPackage;
 
+import UserPackage.IUser;
+
 public class ClosedGroup extends Group {
-    ClosedGroup(String name, String picture, String type) {
-        super(name, picture, type);
+
+    public void approveMembership(IUser user) {
+
     }
+    public void requestMembership(IUser user) {
+
+    }
+
 }
