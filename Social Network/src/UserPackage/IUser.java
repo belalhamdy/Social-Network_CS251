@@ -2,6 +2,7 @@ package UserPackage;
 
 import MessagePackage.IPersonalMessage;
 
+import java.util.Date;
 import java.util.List;
 
 public interface IUser {
@@ -26,6 +27,9 @@ public interface IUser {
     void setGender(GenderType gender);
     GenderType getGender();
 
+    void setDateOfBirth(Date d);
+    Date getDateOfBirth();
+
     void setPicture(String picture);
     String getPicture();
 
@@ -34,4 +38,10 @@ public interface IUser {
     List<IPersonalMessage> getMessages();
 
     void addMessage(IPersonalMessage pm);
+
+    void setCountry(String country);
+    String getCountry();
+
+    void setUserType(UserType ut);
+    UserType getUserType();
 }

@@ -2,6 +2,7 @@ package UserPackage;
 
 import MessagePackage.IPersonalMessage;
 
+import java.util.Date;
 import java.util.List;
 
 public class User implements IUser {
@@ -12,6 +13,9 @@ public class User implements IUser {
     private String email;
     private String picture;
     private GenderType gender;
+    private Date dateOfBirth;
+    private String country;
+    private UserType userType;
 
     public void setId(String id) {
         this.id = id;
@@ -45,6 +49,14 @@ public class User implements IUser {
         return gender;
     }
 
+    public void setDateOfBirth(Date d) {
+        this.dateOfBirth = d;
+    }
+
+    public Date getDateOfBirth() {
+        return dateOfBirth;
+    }
+
     public void setPassword(String password) {
         this.password = password;
     }
@@ -73,6 +85,24 @@ public class User implements IUser {
     }
 
     public void addMessage(IPersonalMessage pm) {
+    }
+
+    public void setCountry(String country) {
+        this.country=country;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    @Override
+    public void setUserType(UserType ut) {
+        userType = ut;
+    }
+
+    @Override
+    public UserType getUserType() {
+        return userType;
     }
 
     public void setUsername(String userName) {
