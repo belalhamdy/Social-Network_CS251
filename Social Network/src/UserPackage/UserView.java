@@ -10,7 +10,7 @@ public class UserView {
 
     IUser loggedin;
 
-    UserView(IUser loggedin) {
+    public UserView(IUser loggedin) {
         this.loggedin = loggedin;
     }
 
@@ -28,13 +28,13 @@ public class UserView {
             if (ans == 1){
                 System.out.println("NOT IMPLEMENTED");
             }else if (ans == 2){
-                if (loggedin.getUserType() == IUser.UserType.PremiumUser){
-                    System.out.println("User is already premium!");
+                if (loggedin.getUserType() == IUser.UserType.premiumuser){
+                    System.out.println(loggedin.getName() + " is already premium!");
                 }else{
                     boolean payment = PaymentsView.showPaymentWindow();
                     if (payment){
-                        loggedin.setUserType(IUser.UserType.PremiumUser);
-                        System.out.println("User upgraded!");
+                        loggedin.setUserType(IUser.UserType.premiumuser);
+                        System.out.println(loggedin.getName() + " upgraded!");
                     }
                     else
                         System.out.println("Payment cancelled!");
@@ -50,6 +50,8 @@ public class UserView {
                     System.out.println(username + " added as a friend, they can now see your posts!");
                     System.out.println("To be able to see their posts, make sure they add you to their friendlist!");
                 }
+            }else if (ans == 4){
+                return;
             }
         }
 

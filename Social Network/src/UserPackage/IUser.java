@@ -6,8 +6,8 @@ import java.util.Date;
 import java.util.List;
 
 public interface IUser {
-    enum GenderType{Male, Female, Other}
-    enum UserType{NormalUser, PremiumUser}
+    enum GenderType{male, female, other}
+    enum UserType{NormalUser, premiumuser}
 
     void setId(String id);
     String getId();

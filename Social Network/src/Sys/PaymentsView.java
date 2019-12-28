@@ -11,8 +11,7 @@ public class PaymentsView {
         System.out.println("Do you want to confirm your payment?\n1- Confirm\n2- Cancel");
         int ans = in.nextInt();
         in.nextLine();
-        if (ans == 1) return true;
-        else return false;
+        return ans == 1;
 
     }
 }

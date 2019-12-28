@@ -18,7 +18,7 @@ public class UserAccountView {
                 IUser candidate = showLoginForm();
                 if (candidate != null) return candidate;
             } else if (ans == 2) {
-                if (showRegisterForm()) return null;
+                if (showRegisterForm()) return showLoginForm();
             } else if (ans == 3) {
                 return null;
             } else {
@@ -28,31 +28,33 @@ public class UserAccountView {
     }
 
     private static boolean showRegisterForm() {
+        System.out.println("Welcome Please sign up to start your tour\n");
+
         try {
-            IUser newuser = new User();
+            IUser newUser = new User();
             System.out.println("Please enter your data:");
             System.out.println("Name: ");
-            newuser.setName(in.nextLine());
+            newUser.setName(in.nextLine());
             while (true) {
                 System.out.println("Username: ");
-                newuser.setUsername(in.nextLine());
-                IUser candidate = Sys.API.getInstance().getUserByUsername(newuser.getUsername());
+                newUser.setUsername(in.nextLine());
+                IUser candidate = Sys.API.getInstance().getUserByUsername(newUser.getUsername());
                 if (candidate == null) break;
                 else System.out.println("Username already exists!");
             }
 
             System.out.println("Password: ");
-            newuser.setPassword(in.nextLine());
+            newUser.setPassword(in.nextLine());
             System.out.println("Email: ");
-            newuser.setEmail(in.nextLine());
+            newUser.setEmail(in.nextLine());
             System.out.println("Gender: ");
-            newuser.setGender(IUser.GenderType.valueOf(in.nextLine().toLowerCase()));
+            newUser.setGender(IUser.GenderType.valueOf(in.nextLine().toLowerCase()));
             System.out.println("Country: ");
-            newuser.setCountry(in.nextLine());
+            newUser.setCountry(in.nextLine());
             System.out.println("DateOfBirth: ");
-            newuser.setDateOfBirth(new SimpleDateFormat("dd/MM/yyyy").parse(in.nextLine()));
+            newUser.setDateOfBirth(new SimpleDateFormat("dd/MM/yyyy").parse(in.nextLine()));
 
-            Sys.API.getInstance().registerUser(newuser);
+            Sys.API.getInstance().registerUser(newUser);
             return true;
         } catch (Exception ex) {
             System.out.println("Something went wrong!");
@@ -62,6 +64,7 @@ public class UserAccountView {
     }
 
     private static IUser showLoginForm() {
+        System.out.println("Hello Please login to your account\n");
         System.out.println("Enter your username: ");
         String username = in.nextLine();
         System.out.println("Enter your password: ");

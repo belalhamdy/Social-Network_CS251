@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa15ce26-6e69-4bcd-bc69-05baa5d8ede9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Sys/PaymentsView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UserPackage/UserAccountView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sys/APITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserPackage/UserAccountViewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sys/API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Social Network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Social Network.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sys/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sys/API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sys/PaymentsView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sys/PaymentsView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserPackage/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/IUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserPackage/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserPackage/UserAccountView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/UserAccountView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserPackage/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserPackage/UserView.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +22,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -29,24 +31,66 @@
   </component>
   <component name="ProjectId" id="1Va6K5cDCSRg03mlF4yEl5C85s2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577454707105" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Vector_Quantizer" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="UserPackage" />
+      <recent name="Sys" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="API" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sys.API" />
+      <module name="Social Network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="Application.API" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -62,6 +106,8 @@
       <updated>1577448863647</updated>
       <workItem from="1577478793693" duration="5891000" />
       <workItem from="1577526292261" duration="7509000" />
+      <workItem from="1577536352977" duration="162000" />
+      <workItem from="1577536552395" duration="3159000" />
     </task>
     <servers />
   </component>
@@ -80,5 +126,39 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1577538674590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577538674590" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1577538674590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577538674590" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1577538674590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577538674590" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1577538674590">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577538674590" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1577536509618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577536509618" />
+    <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577539039354">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="306" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1577539039354" />
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577538623823">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1577538623823" />
+    <state x="999" y="162" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577539474544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="999" y="162" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1577539474544" />
   </component>
 </project>
