@@ -27,5 +27,4 @@ public interface IGroup {
     String getType();
 
     String getName();
-    String setName();
 }

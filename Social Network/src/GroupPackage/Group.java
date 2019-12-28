@@ -58,7 +58,4 @@ public class Group implements IGroup{
         return name;
     }
 
-    public String setName() {
-        return null;
-    }
 }

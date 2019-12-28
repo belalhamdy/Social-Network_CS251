@@ -17,7 +17,6 @@ public interface IPost {
     void setGroup(IGroup group);
     IGroup getGroup();
 
-    void setnLikes(int nLikes);
     int getnLikes();
 
     void setCreator(IUser creator);

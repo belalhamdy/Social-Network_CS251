@@ -16,7 +16,7 @@ import java.util.List;
 public class API {
     public static API instance;
 
-    //Database
+    //Database Simulation
     List<IUser> usersInSystem;
     List<IPost> postsInSystem;
     List<IComment> commentsInSystem;
@@ -58,5 +58,9 @@ public class API {
         }
         return null;
     }
+
+    public ArrayList<IPage> getPageByName(String name) {return null;}
+    public ArrayList<IGroup> getGroupByName(String name) {return null;}
+    public ArrayList<IHashtag> getPostsByHashtag(String name) {return null;}
 
 }

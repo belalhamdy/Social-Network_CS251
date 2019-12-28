@@ -10,7 +10,6 @@ public interface IPage {
     void addPost(IPost post);
 
     int getnLikes();
-    void setnLikes(int nlikes);
 
     void addAdmin(IUser user);
     void removeAdmin(IUser user);
@@ -19,7 +18,6 @@ public interface IPage {
     String getPicture();
 
     String getId();
-    void setId(String id);
 
     String getName();
     void setName(String name);
